@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.home{
+    background: url('./images/medical-bg.jpg') no-repeat center center; 
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.home h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.home p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.about{
+    background: url('./images/about.jpg') no-repeat center center; 
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.about h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding-top: 30px;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.about p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.services{
+    background: url('./images/services.jpg') no-repeat center center; 
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.services h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 30px;
+    padding-top: 30px;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #558ee7;
+}
+
+#imge{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+
+#imge:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.dtr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 30px 30px; */
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.ttl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 30px;
+    padding-top: 30px; */
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+footer p{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
